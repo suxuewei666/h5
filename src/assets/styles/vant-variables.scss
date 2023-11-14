@@ -1,0 +1,54 @@
+body {
+  --van-primary-color: #3361fc;
+
+  --van-button-large-height: 0.98rem;
+
+  --van-field-input-disabled-text-color: #b8b8b8;
+  --van-field-label-color: #222222;
+  --van-field-placeholder-text-color: rgba(153, 153, 153, 0.45);
+  --van-field-clear-icon-size: 0.3rem;
+  --van-field-icon-size: 0.3rem;
+
+  --van-cell-line-height: 0.42rem;
+  --van-cell-vertical-padding: 0.25rem;
+  --van-cell-horizontal-padding: 0.54rem;
+
+  --van-action-sheet-cancel-padding-top: 0.16rem;
+  --van-action-sheet-item-font-size: 0.36rem;
+  --van-action-sheet-item-line-height: 0.5rem;
+
+  --van-background: #f5f5f5;
+
+  --van-overlay-background: rgba(0, 0, 0, 0.3);
+
+  --van-popup-round-radius: 0.16rem;
+
+  --van-tabs-line-height: 0.98rem;
+  --van-tab-font-size: 0.32rem;
+
+  --van-font-bold: 600;
+
+  --van-popover-arrow-size: 0.18rem;
+  --van-popover-dark-background: rgba(0, 0, 0, 0.75);
+  --van-popover-radius: 0.06rem;
+
+  --van-picker-toolbar-height: 1rem;
+  --van-picker-cancel-action-color: #666666;
+  --van-picker-action-font-size: 0.3rem;
+  --van-picker-confirm-action-color: #0074ff;
+
+  --van-dropdown-menu-title-font-size: 0.3rem;
+
+  --van-tab-line-height: 0.42rem;
+
+  --van-circle-text-font-size: 0.2rem;
+
+  --van-radio-size: 0.38rem;
+  --van-radio-checked-icon-color: #0074ff;
+  --van-radio-label-margin: 0.2rem;
+  --van-radio-label-color: #666666;
+
+  --van-switch-width: 0.9rem;
+  --van-switch-height: 0.48rem;
+  --van-switch-node-size: 0.4rem;
+}

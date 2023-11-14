@@ -1,0 +1,68 @@
+{
+  "name": "official-frontend",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:test": "vite build --mode test",
+    "serve": "vite preview",
+    "lint": "vue-tsc --noEmit --skipLibCheck && eslint --ext .js,.vue,.ts, --ignore-path .gitignore . --fix",
+    "preinstall": "node ./scripts/preinstall.js",
+    "postinstall": "husky install"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint --edit $1"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "npm run lint"
+    ]
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.6.1",
+    "axios": "^1.6.1",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.10",
+    "echarts": "^5.4.3",
+    "file-saver": "^2.0.5",
+    "lodash": "^4.17.21",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persist": "^1.0.0",
+    "vant": "^4.7.3",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/eslint-parser": "^7.23.3",
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "@types/crypto-js": "^4.2.1",
+    "@types/file-saver": "^2.0.7",
+    "@types/lodash": "^4.14.201",
+    "@types/postcss-pxtorem": "^6.0.3",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "@vant/auto-import-resolver": "^1.0.2",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/compiler-sfc": "^3.2.41",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "consola": "^2.15.3",
+    "eslint": "^8.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.7.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.0.3",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.5.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vue-tsc": "^1.8.22"
+  }
+}
