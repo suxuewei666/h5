@@ -55,7 +55,7 @@
     "eslint-plugin-vue": "^9.7.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.0.3",
-    "postcss-pxtorem": "^6.0.0",
+    "postcss-pxtorem": "5.1.1",
     "prettier": "^2.7.1",
     "sass": "^1.55.0",
     "typescript": "^5.2.2",
